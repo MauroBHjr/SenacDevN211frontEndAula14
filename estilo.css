@@ -1,3 +1,6 @@
+*{
+	box-sizing:border-box;
+}
 /*body*/
 body{
 	background-color:whitesmoke;
@@ -64,8 +67,9 @@ header p{
 	float:left;
 }
 .content .imgFake{
+	display:block;
 	height:10rem; 
-	width:44rem;
+	width:100%;
 }
 	/*Section de paineis*/
 .pannel{
@@ -74,7 +78,7 @@ header p{
 }
 .pannel .imgFake{
 	height:4rem; 
-	width:10rem;
+	width:100%;
 }
 
 /*Postagens*/
