@@ -44,3 +44,19 @@ header p{
 	text-align: right;
 	padding-right: 2%;
 }
+/*Postagens*/
+.postagens{
+	background-color:white;
+	padding:1rem;
+	margin: 1rem;
+}
+.postagens h2{
+	text-transform: uppercase;
+}
+/*About*/
+
+/*Popular post*/
+
+/*Social*/
+
+/*footer*/
