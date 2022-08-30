@@ -1,8 +1,8 @@
 /*body*/
 body{
 	background-color:whitesmoke;
-	margin: 1rem;
-	font-family: Helvetica, Sans-Serif;
+	margin:1%;
+	font-family: Arial, ArialMT, Sans-Serif;
 }
 /*header*/
 header{
@@ -19,7 +19,7 @@ header p{
 /*Barra menu topo*/
 .menuTopo{
 	width:100%;
-	background-color:black;
+	background-color:#303030;
 	margin-top:-1rem;
 	display:flex;
 	flex-wrap:wrap;
@@ -44,19 +44,75 @@ header p{
 	text-align: right;
 	padding-right: 2%;
 }
+/*Container principal*/
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	padding:-1;
+	margin:-1;
+	height:100%;
+	width:100%;
+}
+/*Imagem*/
+.imgFake{
+	background-color:darkgrey;
+	padding:1rem;
+}
+	/*Section de postagens*/
+.content{
+	flex:60%;
+	float:left;
+}
+.content .imgFake{
+	height:10rem; 
+	width:44rem;
+}
+	/*Section de paineis*/
+.pannel{
+	flex:20%;
+	float:right;
+}
+.pannel .imgFake{
+	height:5rem; 
+	width:10rem;
+}
+
 /*Postagens*/
 .postagens{
 	background-color:white;
 	padding:1rem;
-	margin: 1rem;
+	margin-top:1em;
 }
+
 .postagens h2{
 	text-transform: uppercase;
 }
 /*About*/
+.aboutBox{
+	background-color:white;
+	padding:1rem;
+	margin-top:1rem;
+	margin-left:1rem;
+}
 
 /*Popular post*/
-
+.hotPost{
+	background-color:white;
+	padding:1rem;
+	margin-top:1rem;
+	margin-left:1rem;
+}
 /*Social*/
-
+.socialBox{
+	background-color:white;
+	padding:1rem;
+	margin-top:1rem;
+	margin-left:1rem;
+}
 /*footer*/
+footer{
+	text-align:center;
+	background-color:lightgray;
+	padding:2rem;
+	margin:1% 0;
+}
